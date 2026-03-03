@@ -32,7 +32,7 @@ For every verified lead, an **AI Agent (GPT-4o)** generates a hyper-personalized
 </div>
 
 ### 3️⃣ AI SDR Brain (Negotiation & RAG)
-When a prospect replies, the **AI SDR Agent** takes over. It utilizes **Pinecone Vector Store** for Retrieval-Augmented Generation (RAG) to provide factually accurate answers about company services and book discovery calls.
+When a prospect replies, the AI SDR Agent takes over. It utilizes a Pinecone Vector Store for Retrieval-Augmented Generation (RAG) to provide factually accurate answers about company services. Once the lead is qualified, the agent automatically triggers a GoHighLevel (GHL) integration to book discovery calls on the sales calendar and move the lead to the 'High-Intent' stage of the CRM pipeline.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Muneeb20019/LinkedIn-LeadGen-n8n-Instantly.AI/main/3%20AI%20Sdr%20Agent.png" width="100%" alt="AI SDR Agent"/>
