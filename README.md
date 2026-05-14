@@ -8,10 +8,17 @@
 
 ---
 
+## 📺 Project Demo
+Experience the seamless flow from lead extraction to automated warm outreach.
+
+https://www.loom.com/share/3d43e4f6d4e94008a18f8632ae478992
+
+---
+
 ## 🚀 Project Overview
 This project is an **End-to-End Autonomous Sales Intelligence Pipeline**. It manages the full B2B sales cycle by scraping high-intent leads from LinkedIn via **Apify**, enriching them with AI-generated icebreakers, and pushing them into **Instantly.ai** for high-deliverability warm email campaigns. 
 
-The system acts as a digital SDR, using **RAG-powered negotiation** to handle replies and **GoHighLevel** to manage the final CRM stages.
+The system acts as a digital SDR, using **RAG-powered negotiation** to handle replies and **GoHighLevel** to manage the final CRM stages and discovery call bookings.
 
 ---
 
@@ -32,7 +39,7 @@ For every verified lead, an **AI Agent (GPT-4o)** generates a hyper-personalized
 </div>
 
 ### 3️⃣ AI SDR Brain (Negotiation & RAG)
-When a prospect replies, the AI SDR Agent takes over. It utilizes a Pinecone Vector Store for Retrieval-Augmented Generation (RAG) to provide factually accurate answers about company services. Once the lead is qualified, the agent automatically triggers a GoHighLevel (GHL) integration to book discovery calls on the sales calendar and move the lead to the 'High-Intent' stage of the CRM pipeline.
+When a prospect replies, the **AI SDR Agent** takes over. It utilizes a Pinecone Vector Store for **Retrieval-Augmented Generation (RAG)** to provide factually accurate answers about company services. Once the lead is qualified, the agent automatically triggers a **GoHighLevel (GHL)** integration to book discovery calls on the sales calendar.
 
 <div align="center">
   <img src="https://raw.githubusercontent.com/Muneeb20019/LinkedIn-LeadGen-n8n-Instantly.AI/main/3%20AI%20Sdr%20Agent.png" width="100%" alt="AI SDR Agent"/>
@@ -65,6 +72,7 @@ Finally, the system classifies lead intent. If a lead is "Disqualified" or "Unsu
 - **🛡️ DNR Detection:** Autonomous filtering of "Out of Office" and "Unsubscribe" intents to protect email deliverability.
 - **⚡ Async Polling:** Recursive loops for status verification and data enrichment.
 - **🏷️ Automated Tagging:** AI-driven classification of leads into "Qualified," "Interested," or "General Inquiry" for CRM mapping.
+- **🎯 CRM Orchestration (GHL):** Full synchronization with GoHighLevel for pipeline management and automated booking.
 
 ---
 
